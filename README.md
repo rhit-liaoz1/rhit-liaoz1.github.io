@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="main.css">
-        <title>Zeyu Liao - Hello</title>
+        #Zeyu Liao - Hello
     </head>
     <body>
         <header>
