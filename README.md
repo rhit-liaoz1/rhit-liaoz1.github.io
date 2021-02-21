@@ -3,10 +3,6 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <header>
-            <h1>Hello</h1>
-
-        </header>
         <nav>
             <ul>
                  <h1>Hello!</h1>
