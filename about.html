@@ -1,51 +1,39 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="main.css">
-        <title>Zeyu Liao - About</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Name's personal website</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+        <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+        <link rel="stylesheet" href="styles/main.css">
     </head>
-    <body>
-        <header>
-            <h1>Zeyu Liao</h1>
-            
-        </header>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <img class="resize" id="some" style="max-width: 50%; text-align: right; visibility:hidden" src="l.jpg"/>
-            </ul>
-        </nav>
-        <main>
-          <h1>About</h1>
-          <p>
-            Hello! This is Zeyu Liao. A student at Rose-Hulman Institute of Technology and major in Computer Science.
-          </p>
-          <p>
-            I regard myself a curious and positive person. I am always curiour about new things and passion about things around me. 
-          </p>
-          <p>
-            I like reading scientific novel, making origami and cooking in my free time. The background muisc, Slumbering Lore, is one of my favour musics.
-          </p>
-          <!-- <audio autoplay>
-            <source src="SlumberingLore.mp3" type="audio/mpeg">
-            If you're reading this, audio isn't supported. 
-           </audio> -->
-           <embed name="myMusic" loop="true" hidden="true" src="SlumberingLore.mp3"></embed>
-          <input type="button" value="My Photo" onclick="showImage();"/>
-          
-    
-        <script> function showImage(){
-            // console.log( document.getElementById("some"));
-            if( document.getElementById("some").style.visibility=="visible") {
-                document.getElementById("some").style.visibility="hidden";
-            }else{
-                document.getElementById("some").style.visibility="visible";
-            } 
-           
-         }
-         </script>
 
+    <body id="About">
+        <header>
+            <h1 class="gravityTarget">Zeyu Liao （廖泽钰）</h1>
+            <nav>
+                <li class="gravityTarget"><a href="index.html">About Me</a></li>
+                <!-- <li class="gravityTarget"><a href="portfolio.html">Portfolio</a></li> -->
+                <!-- <li><a href="Name - Resume.pdf"  target="_blank">Resume PDF</a></li> -->
+                <li class="gravityTarget"><a href="resume.html">Resume</a></li>
+                <li class="gravityTarget"><button id="bigRedButton" class="btn">DO NOT PRESS</button></li>
+            </nav>
+        </header>
+        <main>
+            <h2 class="gravityTarget">Stay a while and listen</h2>
+            <!-- <img src="image.png" style="height: 15em;" class="gravityTarget"> -->
+            <h3 class="gravityTarget">Hi! I'm Zeyu Liao, thanks for stopping by!</h3>
+            <p class="tooLarge">I am a Computer Science Senior at Rose-Hulman Institute of Technology,,</p>
+            <p class="tooLarge"> I regard myself a curious and positive person. I am always curiour about new things and passion about things around me.</p>
+            <p class="tooLarge">I like reading scientific novel, making origami and cooking in my free time. The background muisc, Slumbering Lore, is one of my favour musics./p>
+         <embed name="myMusic" loop="true" src="SlumberingLore.mp3"></embed>
         </main>
+        <footer>
+            <p class="gravityTarget">Please feel free to contact me through email at: liaoz1@outlook.com</p>
+            <h4 id="animatedText"></h4>
+        </footer>
+        <script src="scripts/main.js"></script>
+        <script type="text/javascript" src="scripts/box-2d.js"></script>
     </body>
 </html>
